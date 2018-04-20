@@ -148,9 +148,8 @@
                     <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i> pinterest 8</a>
                 </div>
                 <div class="blog-img">
-                	<h4>Recomended Posts</h4>
+                    <h4>Recomended Posts</h4>
                     <div class="slick-block">
-
                         <div>
                             <img src="img/5c400093a090705e2c752dc1df101631.jpg" alt="#" width="240" height="150">
                             <p>girl on car vintage fashion </p>
@@ -171,37 +170,88 @@
                 </div>
             </div>
             <div class="main-right">
-            	<input type="text" placeholder="Search">
-            	<a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
-            	<img src="img/Page2.jpg" alt="#" width="280" height="500" >
-            	<h3>Catagories</h3>
-
+                <input type="text" placeholder="Search">
+                <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                <img src="img/Page2.jpg" alt="#" width="240" height="500">
+                <div class="list">
+                    <h3>Catagories</h3>
+                    <ul>
+                        <li><a href="#">lifestyle</a>
+                            <p>98</p>
+                        </li>
+                        <li><a href="#">Audio</a>
+                            <p>102</p>
+                        </li>
+                        <li><a href="#">Gallery</a>
+                            <p>83</p>
+                        </li>
+                        <li><a href="#">Image</a>
+                            <p>04</p>
+                        </li>
+                        <li><a href="#">Standard</a>
+                            <p>109</p>
+                        </li>
+                        <li><a href="#">Status</a>
+                            <p>50</p>
+                        </li>
+                        <li><a href="#">Video</a>
+                            <p>102</p>
+                        </li>
+                    </ul>
+                    <img src="img/image4.jpg" alt="#" width="250" height="220">
+                </div>
+                <div class="block1">
+                    <h3>Latest Post</h3>
+                    <div class="item1">
+                        <img src="img/image4.jpg" alt="" width="65" height="65">
+                        <p>jurney towards a
+                            <br>lifestyle</p>
+                        <small>Jan. 16 2015 &#160; &#160;Like 255</small>
+                    </div>
+                    <div class="item1">
+                        <img src="img/image4.jpg" alt="" width="65" height="65">
+                        <p>jurney towards a
+                            <br>lifestyle</p>
+                        <small>Jan. 16 2015 &#160; &#160;Like 255</small>
+                    </div>
+                    <div class="item1">
+                        <img src="img/image4.jpg" alt="" width="65" height="65">
+                        <p>jurney towards a
+                            <br>lifestyle</p>
+                        <small>Jan. 16 2015 &#160; &#160;Like 255</small>
+                    </div>
+                    <div class="item1">
+                        <img src="img/image4.jpg" alt="" width="65" height="65">
+                        <p>jurney towards a
+                            <br>lifestyle</p>
+                        <small>Jan. 16 2015 &#160; &#160;Like 255</small>
+                    </div>
+                    <div class="social">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                        <i class="fa fa-tumblr" aria-hidden="true"></i>
+                        <i class="fa fa-info" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="slick-right">
+                    <div>
+                        <img src="img/5c400093a090705e2c752dc1df101631.jpg" alt="#" width="240" height="140">
+                    </div>
+                    <div>
+                        <img src="img/5c400093a090705e2c752dc1df101631.jpg" alt="#" width="240" height="140">
+                    </div>
+                    <div>
+                        <img src="img/5c400093a090705e2c752dc1df101631.jpg" alt="#" width="240" height="140">
+                    </div>
+                </div>
+                <div class="fb">
+            	<img src="img/fb.jpg" alt="#" width="240" height="200" >
+            </div>
             </div>
 
         </main>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <script src="js/jquery-3.2.0.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/slick.min.js"></script>
@@ -219,6 +269,15 @@
         $('.slick').slick({
             slidesToShow: 2,
             slidesToScroll: 1,
+
+        });
+    });
+    </script>
+   <script>
+    $(document).ready(function() {
+        $('.slick-right').slick({
+        	slidesToShow: 1,
+            infinite: true,
 
         });
     });
