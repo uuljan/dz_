@@ -7,13 +7,92 @@
     }
 }
 
+@media screen and (max-width: 1130px) {
+    .main-left {
+        width: 700px;
+    }
+    .main-left .pint {
+        margin-left: 645px;
+    }
+    .main-right {
+        width: 300px;
+    }
+    .txt {
+        width: 700px;
+    }
+    .social-box {
+        width: 700px;
+        font-size: 13px;
+    }
+    .slick {
+        width: 700px;
+    }
+    .slick img {
+        width: 330px;
+    }
+    .blog {
+        width: 695px;
+    }
+    .blog-social a {
+        margin-right: 0px;
+        margin-left: 20px;
+    }
+    .slick-block {
+        width: 700px;
+    }
+    .slick-block img {
+        width: 200px;
+    }
+    .slick-block p {
+        font-size: 13px;
+    }
+    .blog-social a {
+        margin-right: 0px;
+    }
+    .block1 .social .fa {
+        margin-left: 0px;
+        font-size: 20px;
+    }
+}
+
 @media screen and (max-width: 1100px) {
     .carousel-indicators li {
         display: none;
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
+    .main-left {
+        margin-left: 100px;
+    }
+    .img-box .nature {
+        width: 700px;
+    }
+    .main-right {
+        float: left;
+        margin-left: 300px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .main-left {
+        margin-left: 50px;
+    }
+    .main-right {
+        margin-left: 250px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .main-left {
+        margin-left: 0px;
+    }
+    .main-right {
+        margin-left: 200px;
+    }
+}
+
+@media screen and (max-width: 705px) {
     .right.carousel-control {
         bottom: 20px;
     }
@@ -29,20 +108,130 @@
         height: 250px;
     }
     input[type="text"] {
-        margin: -44px 0px 0px 130px;
+        margin: -44px 0px 0px 150px;
     }
     input[type="email"] {
-        margin-left: 130px;
+        margin-left: 150px;
     }
     input[type="submit"] {
-        margin-left: 130px;
+        margin-left: 150px;
         width: 300px;
+    }
+    .main-right input[type="text"] {
+        margin-left: 35px;
+    }
+    .img-box .nature {
+        width: 500px;
+        margin-left: 100px;
+    }
+    .img-box .pint {
+        margin-left: 549px;
+    }
+    .txt {
+        width: 500px;
+        margin-left: 100px;
+    }
+    .social-box {
+        width: 500px;
+        margin-left: 100px;
+    }
+    .slick {
+        width: 500px;
+        margin-left: 100px;
+    }
+    .slick img {
+        width: 245px;
+    }
+    .blog {
+        width: 500px;
+        margin-left: 100px;
+    }
+    .blog-social {
+        width: 350px;
+        margin-left: 100px;
+    }
+    .blog-social a {
+
+        margin-right: 0px;
+        margin-left: 0;
+    }
+    .blog-img{
+        width: 500px;
+        margin-left: 100px;
+    }
+    .slick-block{
+        width: 500px;
+    }
+    .slick-block img{
+        width: 150px;
+    }
+        .main-left {
+        width: 500px;
+    }
+}
+@media screen and (max-width: 605px){
+    .img-box .nature {
+        width: 350px;
+    }
+    .img-box .pint {
+        margin-left: 399px;
+    }
+    .txt {
+        width: 350px;
+        
+    }
+    .social-box {
+        width: 350px;
+    }
+    .social-box p{
+        display: block;
+    }
+    .slick {
+        width: 350px;
+    }
+    .slick img {
+        width: 170px;
+    }
+    .blog {
+        width: 350px;
+    }
+    .blog-social {
+        width: 350px;
+    }
+    .blog-social a {
+
+        margin-right: 0px;
+        margin-left: 0;
+    }
+    .blog-img{
+        width: 350px;
+    }
+    .slick-block{
+        width: 350px;
+    }
+    .slick-block img{
+        width: 100px;
+    }
+    .slick-block p{
+        font-size: 10px;
+    }
+        .main-left {
+        width: 350px;
+    }
+    .main-right{
+        margin-left: 130px;
     }
 }
 
 @media screen and (max-width: 500px) {
     .logo img {
         width: 0px;
+    }
+        .main-left {
+        margin-left: -85px;
+    }
+        .main-right{
+        margin-left: 40px;
     }
 }
 
@@ -53,12 +242,10 @@
     .carousel-caption h1 {
         font-size: 30px;
     }
-}
-@media screen and (max-width: 450px){
-	input{
-		width: 200px;
-	}
-	input[type="submit"]{
-		width: 200px;
-	}
+        input {
+        width: 200px;
+    }
+    input[type="submit"] {
+        width: 200px;
+    }
 }
