@@ -573,5 +573,14 @@ margin-top: 20px;
 .box1 .fa{
 	border: none;
 }
-
-
+footer{
+background: #17191c;
+height: 40px;
+}
+footer p{
+	margin: 0;
+	padding: 10px 0px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #929293;
+}

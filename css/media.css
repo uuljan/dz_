@@ -81,8 +81,8 @@
     section {
         height: 700px;
     }
-    .box1{
-        border-bottom: 1px solid #ddd; 
+    .box1 {
+        border-bottom: 1px solid #ddd;
     }
 }
 
@@ -183,6 +183,10 @@
     main {
         height: 4350px;
     }
+    footer {
+
+        height: 60px;
+    }
 }
 
 @media screen and (max-width: 605px) {
@@ -251,7 +255,9 @@
     .main-right {
         margin-left: 40px;
     }
-
+    section {
+        height: 750px;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -267,7 +273,7 @@
     input[type="submit"] {
         width: 200px;
     }
-            section {
-        height: 800px;
+    section {
+        height: 780px;
     }
 }
