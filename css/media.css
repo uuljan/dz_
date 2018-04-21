@@ -79,7 +79,7 @@
         height: 4000px;
     }
     section {
-        height: 700px;
+        height: 780px;
     }
     .box1 {
         border-bottom: 1px solid #ddd;
@@ -101,6 +101,9 @@
     }
     .main-right {
         margin-left: 200px;
+    }
+    .box1 h4{
+        padding-top: 20px;
     }
 }
 
@@ -256,7 +259,7 @@
         margin-left: 40px;
     }
     section {
-        height: 750px;
+        height: 820px;
     }
 }
 
@@ -274,6 +277,6 @@
         width: 200px;
     }
     section {
-        height: 780px;
+        height: 850px;
     }
 }

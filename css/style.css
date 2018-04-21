@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background: #ccc;
+    background: #f9f9fb;
     font-size: 14px;
 }
 
@@ -134,7 +134,9 @@ header {
     float: right;
     margin-top: -32px;
 }
-
+.carousel-inner{
+	border: none;
+}
 .carousel.slide {
     margin-top: -290px;
     border: none;
@@ -151,8 +153,6 @@ header {
     border-radius: 0%;
     margin-top: 7px;
 }
-
-.left.carousel-control {}
 
 .carousel-indicators .active {
 
