@@ -5,6 +5,9 @@
     .carousel-caption img {
         width: 0;
     }
+    section {
+        height: 550px;
+    }
 }
 
 @media screen and (max-width: 1130px) {
@@ -71,6 +74,15 @@
     .main-right {
         float: left;
         margin-left: 300px;
+    }
+    main {
+        height: 4000px;
+    }
+    section {
+        height: 700px;
+    }
+    .box1{
+        border-bottom: 1px solid #ddd; 
     }
 }
 
@@ -155,21 +167,25 @@
         margin-right: 0px;
         margin-left: 0;
     }
-    .blog-img{
+    .blog-img {
         width: 500px;
         margin-left: 100px;
     }
-    .slick-block{
+    .slick-block {
         width: 500px;
     }
-    .slick-block img{
+    .slick-block img {
         width: 150px;
     }
-        .main-left {
+    .main-left {
         width: 500px;
     }
+    main {
+        height: 4350px;
+    }
 }
-@media screen and (max-width: 605px){
+
+@media screen and (max-width: 605px) {
     .img-box .nature {
         width: 350px;
     }
@@ -178,12 +194,11 @@
     }
     .txt {
         width: 350px;
-        
     }
     .social-box {
         width: 350px;
     }
-    .social-box p{
+    .social-box p {
         display: block;
     }
     .slick {
@@ -203,23 +218,26 @@
         margin-right: 0px;
         margin-left: 0;
     }
-    .blog-img{
+    .blog-img {
         width: 350px;
     }
-    .slick-block{
+    .slick-block {
         width: 350px;
     }
-    .slick-block img{
+    .slick-block img {
         width: 100px;
     }
-    .slick-block p{
+    .slick-block p {
         font-size: 10px;
     }
-        .main-left {
+    .main-left {
         width: 350px;
     }
-    .main-right{
+    .main-right {
         margin-left: 130px;
+    }
+    main {
+        height: 4850px;
     }
 }
 
@@ -227,12 +245,13 @@
     .logo img {
         width: 0px;
     }
-        .main-left {
+    .main-left {
         margin-left: -85px;
     }
-        .main-right{
+    .main-right {
         margin-left: 40px;
     }
+
 }
 
 @media screen and (max-width: 450px) {
@@ -242,10 +261,13 @@
     .carousel-caption h1 {
         font-size: 30px;
     }
-        input {
+    input {
         width: 200px;
     }
     input[type="submit"] {
         width: 200px;
+    }
+            section {
+        height: 800px;
     }
 }

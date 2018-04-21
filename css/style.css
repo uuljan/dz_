@@ -509,6 +509,7 @@ margin-top: -70px;
 	margin-top: 70px;
 	width: 280px;
 }
+
 .slick-right .slick-prev.slick-arrow{
 	position: absolute;
 	width:  40px;
@@ -531,3 +532,46 @@ margin-top: -70px;
 	border: none;
 	font-size: 0;
 }
+.fb{
+	margin-top: 18px;
+}
+main{
+	height: 2000px;
+}
+section{
+	width: 100%;
+	height: 250px;
+	margin-top: 50px;
+	background: #212429;
+}
+.box1 h4{
+color: #fff;
+text-transform: uppercase;
+font-size: 14px;
+font-weight: bold;
+margin-top: 20px;
+}
+.box1 p{
+	color: #fff;
+	font-size: 12px;
+}
+.box1 a{
+	text-decoration: none;
+	color: #fff;
+}
+.box1 a:hover{
+	color: #4758c6;
+}
+.sign-box{
+	background: #3a3c49;
+	height: 120px;
+	width: 255px;
+}
+.sign-box img{
+	margin: 50px 0px 0px 70px;
+}
+.box1 .fa{
+	border: none;
+}
+
+
